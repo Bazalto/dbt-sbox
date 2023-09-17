@@ -19,3 +19,9 @@ models:
             tests:
                 - unique
                 - not_null
+
+sources:
+  - name: sbox
+    database: dbt_sbox
+    tables:
+      - name: basic      
